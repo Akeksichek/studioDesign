@@ -1,0 +1,105 @@
+body {
+    background: url("../src/backimage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.nav {
+    background-color: rgba(255, 255, 255, 0.724);
+}
+
+.navLine {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+}
+
+.textNavA {
+    color: black;
+    text-decoration: none;
+    line-height: 65px;
+}
+
+.btnNav {
+    background-color: #dffafa;
+    box-shadow: 3px 3px 3px 0px rgb(187, 187, 187);
+    border-radius: 3px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.topTx {
+    text-align: center;
+    font-size: 31px;
+    margin-top: 46px;
+    margin-bottom: 27px;
+}
+
+.appBlock {
+    margin-top: 50px;
+    height: 100vh;
+    width: 100%;
+    display: block;
+}
+
+.appChat {
+    margin: 0 auto;
+    height: 100vh;
+    width: 876px;
+    border: 1px solid black;
+    backdrop-filter: blur(3.5px);
+}
+
+.msgBlock {
+    width: 800px;
+    height: 28vw;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.msgInput {
+    position: absolute;
+    bottom: 198px;
+    left: 115px;
+    height: 80px;
+    width: 639px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    border-radius: 20px;
+}
+
+.msgRec {
+    border: none;
+    height: 50px;
+    width: 489px;
+    font-size: 20px;
+    background-color: #b1b1b1;
+    
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 14px;
+}
+.msgRec:focus {
+    outline: none;
+}
+
+.msgSend {
+    background-color: transparent;
+    border: none;
+    margin-top: -5px;
+}

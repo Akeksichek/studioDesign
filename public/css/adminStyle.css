@@ -1,0 +1,34 @@
+body {
+    background: url("../src/backimage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.container{
+    background-color: transparent;
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.admPanel{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 200px auto;
+}
+
+.nav, .navContent{
+    background-color: rgba(255, 255, 255, .5);
+    width: max-content;
+    font-size: 24px;
+    padding: 20px 15px;
+}
+
+.appDefBlock, .bronBlock{
+    display: none;
+}
